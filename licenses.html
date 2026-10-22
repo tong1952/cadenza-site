@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open-Source Licenses — Cadenza</title>
+  <meta name="description" content="The open-source software and licensed media included in Cadenza, with their licenses and attribution." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .legal { max-width: 780px; margin: 0 auto; padding: 56px 24px 80px; }
+    .legal h1 { font-size: 2rem; margin-bottom: 6px; }
+    .legal .updated { color: var(--ink-3); font-size: .85rem; margin-bottom: 32px; }
+    .legal h2 { font-size: 1.15rem; margin: 30px 0 8px; text-align: left; letter-spacing: 0; }
+    .legal p, .legal li { color: var(--ink-2); font-size: .94rem; margin-top: 8px; }
+    .legal ul { padding-left: 22px; margin-top: 8px; }
+    .legal a { color: var(--coral); text-decoration: underline; }
+    .legal .back { display: inline-block; margin-bottom: 24px; color: var(--ink-3); font-size: .85rem; }
+    .legal .back:hover { color: var(--ink); }
+    .legal .oss { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 16px 20px; margin-top: 12px; }
+    .legal .oss .lic { color: var(--ok); font-size: .82rem; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <main class="legal">
+    <a class="back" href="index.html">&larr; Back to cadenza.app</a>
+    <h1>Open-Source Licenses &amp; Attribution</h1>
+    <p class="updated">Last updated: October 22, 2026</p>
+
+    <p>Cadenza is built on excellent open-source software. We are grateful to the authors and comply with each license, including reproducing notices here. The full license texts ship with the application in its <code>licenses</code> folder and are also available from each project's repository.</p>
+
+    <h2>Software included in Cadenza</h2>
+    <div class="oss">
+      <p><strong>Python</strong> — the language runtime. <span class="lic">PSF License</span> · <a href="https://docs.python.org/3/license.html" rel="noopener">python.org</a></p>
+    </div>
+    <div class="oss">
+      <p><strong>PyTorch</strong> — the neural-network engine powering the AI separation. <span class="lic">BSD 3-Clause License</span> · Copyright (c) Facebook, Inc. (Meta Platforms, Inc.) and affiliates · <a href="https://github.com/pytorch/pytorch/blob/main/LICENSE" rel="noopener">github.com/pytorch</a></p>
+    </div>
+    <div class="oss">
+      <p><strong>demucs</strong> — the source-separation model (htdemucs / htdemucs_ft) that removes the vocals. <span class="lic">MIT License</span> · Copyright (c) Facebook, Inc. (Meta Platforms, Inc.) and affiliates · <a href="https://github.com/facebookresearch/demucs/blob/main/LICENSE" rel="noopener">github.com/facebookresearch/demucs</a></p>
+      <p>The MIT License permits use, copying, modification and distribution, provided this copyright notice is retained. <em>IT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.</em></p>
+    </div>
+    <div class="oss">
+      <p><strong>FFmpeg</strong> — audio/video decoding and encoding. <span class="lic">GNU Lesser General Public License v2.1+ (as built)</span> · <a href="https://ffmpeg.org/legal.html" rel="noopener">ffmpeg.org/legal.html</a></p>
+      <p>The FFmpeg binary included with Cadenza is built from unmodified FFmpeg source and is governed by the LGPL (or the GPL, depending on the build configuration). FFmpeg is a trademark of Fabrice Bellard, originator of the FFmpeg project. Source code for the exact FFmpeg build is available via the FFmpeg project website.</p>
+    </div>
+    <div class="oss">
+      <p><strong>yt-dlp</strong> — used to fetch video when you paste a link. <span class="lic">The Unlicense (public domain)</span> · <a href="https://github.com/yt-dlp/yt-dlp/blob/master/LICENSE" rel="noopener">github.com/yt-dlp</a></p>
+    </div>
+    <div class="oss">
+      <p><strong>FastAPI, Starlette, Uvicorn</strong> — the local in-app server that serves the user interface on your own machine. <span class="lic">MIT / BSD 3-Clause</span> · <a href="https://github.com/fastapi/fastapi" rel="noopener">github.com/fastapi</a></p>
+    </div>
+    <div class="oss">
+      <p><strong>imageio-ffmpeg</strong> — ffmpeg binary packaging used in development builds. <span class="lic">BSD 2-Clause</span> · <a href="https://github.com/imageio/imageio-ffmpeg" rel="noopener">github.com/imageio</a></p>
+    </div>
+    <div class="oss">
+      <p><strong>Microsoft Edge WebView2 Runtime</strong> — renders the app window on Windows 10/11. © Microsoft Corporation. Used under the <a href="https://www.microsoft.com/en-us/legal/terms-of-use" rel="noopener">Microsoft software license terms</a>; it is preinstalled on Windows 11 and licensed separately from Cadenza.</p>
+    </div>
+    <p>Other Python libraries ship under their respective licenses (NumPy, SciPy, SoundFile, librosa, Pillow, Jinja2 and others); their notices are included in the application's licenses folder.</p>
+
+    <h2>Media included in Cadenza</h2>
+    <div class="oss">
+      <p><strong>"Sally Gardens" (traditional), performed by Dancing Willow</strong> — the bundled 30-second sample song. <span class="lic">Creative Commons Attribution 3.0 Unported (CC BY 3.0)</span> · via Wikimedia Commons · <a href="https://creativecommons.org/licenses/by/3.0/" rel="noopener">license</a></p>
+      <p>Attribution: "Sally Gardens" (traditional), performed by Dancing Willow, licensed CC BY 3.0, via Wikimedia Commons. The attribution is also baked into the sample video frame and shipped in <code>demo_song_ATTRIBUTION.txt</code> with the app.</p>
+    </div>
+    <p>The demo audio on this website is the same sample, processed by Cadenza itself.</p>
+
+    <h2>Questions</h2>
+    <p>License questions or corrections: <a href="mailto:hello@cadenza.app">hello@cadenza.app</a>.</p>
+  </main>
+</body>
+</html>

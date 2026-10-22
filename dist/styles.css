@@ -240,6 +240,8 @@ details p { color: var(--ink-2); font-size: .88rem; margin-top: 10px; }
   color: var(--ink-3); font-size: .82rem;
 }
 .footer-note { margin-top: 6px; font-size: .76rem; }
+.footer-note a { text-decoration: underline; text-underline-offset: 3px; }
+.footer-note a:hover { color: var(--ink); }
 
 @media (max-width: 640px) {
   h1 { font-size: 2.1rem; }

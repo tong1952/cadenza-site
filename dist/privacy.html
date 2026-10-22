@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Cadenza</title>
+  <meta name="description" content="How Cadenza handles your data: everything is processed on your computer, and the only data shared is what purchasing and license validation require." />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .legal { max-width: 780px; margin: 0 auto; padding: 56px 24px 80px; }
+    .legal h1 { font-size: 2rem; margin-bottom: 6px; }
+    .legal .updated { color: var(--ink-3); font-size: .85rem; margin-bottom: 32px; }
+    .legal h2 { font-size: 1.15rem; margin: 30px 0 8px; text-align: left; letter-spacing: 0; }
+    .legal p, .legal li { color: var(--ink-2); font-size: .94rem; margin-top: 8px; }
+    .legal ul { padding-left: 22px; margin-top: 8px; }
+    .legal a { color: var(--coral); text-decoration: underline; }
+    .legal .back { display: inline-block; margin-bottom: 24px; color: var(--ink-3); font-size: .85rem; }
+    .legal .back:hover { color: var(--ink); }
+    .legal .hl { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 16px 20px; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <main class="legal">
+    <a class="back" href="index.html">&larr; Back to cadenza.app</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: October 22, 2026</p>
+
+    <div class="hl">
+      <p><strong>The short version:</strong> Cadenza processes your songs and videos entirely on your own computer. We never see, receive or store your music, your videos, or the karaoke tracks you make. The only personal data involved is what buying a Pro license and checking it requires — handled by our merchant of record, Lemon Squeezy.</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>Cadenza is an independent software product. Contact: <a href="mailto:hello@cadenza.app">hello@cadenza.app</a>. This policy covers the Cadenza desktop app for Windows and the website at cadenza.app (and its GitHub Pages mirror).</p>
+
+    <h2>2. What the app does with your files</h2>
+    <p>Everything you process with Cadenza — uploads from your disk, videos fetched from links, the separated stems and the rendered karaoke video — is processed locally on your PC. Your files are written only to your own folders (working files in <code>%LOCALAPPDATA%\Cadenza</code>, results in <code>Downloads\Cadenza</code>). <strong>No audio or video content is ever transmitted to us or to any server we control.</strong></p>
+
+    <h2>3. What data is collected, and why</h2>
+    <ul>
+      <li><strong>Purchases (Pro only).</strong> When you buy Cadenza Pro, the payment is processed by Lemon Squeezy, our merchant of record (which uses Paddle and Stripe under the hood). They collect the data needed to complete the purchase: your email address, billing country, and payment details (handled by the payment processors — we never see full card numbers). Lemon Squeezy acts as the seller of record for tax purposes; see their <a href="https://www.lemonsqueezy.com/privacy" rel="noopener">privacy policy</a>.</li>
+      <li><strong>License validation (Pro only).</strong> When you activate a license key, the app sends the key and your computer's hostname to Lemon Squeezy's license API to verify it and register the device (up to 3 devices per key). The app re-checks the key at most once a day while online.</li>
+      <li><strong>Support email.</strong> If you write to <a href="mailto:hello@cadenza.app">hello@cadenza.app</a>, we receive your email address and the contents of your message, and keep the thread as long as needed to help you.</li>
+      <li><strong>Downloads.</strong> The app is distributed via GitHub Releases; GitHub (Microsoft) sees the download request like any other GitHub traffic.</li>
+      <li><strong>Fetching videos.</strong> When you paste a video link, the app fetches that content directly from the source site (e.g. YouTube). That request goes to the source site, not to us, and is subject to that site's terms and logging practices.</li>
+    </ul>
+
+    <h2>4. What we deliberately do not do</h2>
+    <ul>
+      <li>No analytics or usage tracking in the app.</li>
+      <li>No crash-reporting service (if the app fails, error logs stay in files on your PC).</li>
+      <li>No advertising, no ad networks, no sale or sharing of personal data.</li>
+      <li>No cookies on this website (the checkout pages on lemonsqueezy.com set their own, under their policy).</li>
+    </ul>
+
+    <h2>5. Legal bases and your rights</h2>
+    <p>If you are in the EEA/UK, our processing is limited to what's needed to perform the purchase contract (payment, license delivery, validation) and to answer your support requests (legitimate interest). You have the right to access, correct, delete, or export your personal data, and to object to or restrict processing. Because we hold almost nothing ourselves, most requests (receipts, payment data) are best directed to Lemon Squeezy, who act as seller; we will help you route any request — just email us. If you are in California, you have the right to know, delete, and opt out of the "sale" or "sharing" of personal information — we do not sell or share it.</p>
+    <p>To exercise any right, or to complain, contact <a href="mailto:hello@cadenza.app">hello@cadenza.app</a>. You may also complain to your local supervisory authority.</p>
+
+    <h2>6. Retention</h2>
+    <p>Purchase and license records are retained by Lemon Squeezy as required for accounting and tax law. Support emails are kept while the conversation is active and deleted when no longer needed. We keep no server-side records of your app usage or your content.</p>
+
+    <h2>7. Security</h2>
+    <p>The best security measure is that there is almost nothing to breach: your content never leaves your machine, and we do not operate servers that store customer data. License keys are transmitted only over HTTPS to Lemon Squeezy.</p>
+
+    <h2>8. Children</h2>
+    <p>The Software is not directed at children under 13 (or the digital-consent age in your country), and we do not knowingly collect their data.</p>
+
+    <h2>9. Changes</h2>
+    <p>We may update this policy as the product evolves; the current version with its date always lives on this page. Material changes will be announced on this page and, for Pro customers, by email.</p>
+
+    <h2>10. Contact</h2>
+    <p>Privacy questions: <a href="mailto:hello@cadenza.app">hello@cadenza.app</a>.</p>
+  </main>
+</body>
+</html>
